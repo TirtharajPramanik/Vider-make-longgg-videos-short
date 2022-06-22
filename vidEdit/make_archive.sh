@@ -1,0 +1,1 @@
+[ -d $1 ] && tar --exclude-vcs --exclude ".*" -czvf "$1.tar.gz" $1 && rm -r $1 || echo "No Directory Found"

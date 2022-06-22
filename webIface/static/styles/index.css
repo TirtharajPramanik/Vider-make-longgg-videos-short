@@ -1,0 +1,41 @@
+.up,
+.down {
+    width: max-content;
+    margin: auto;
+    margin-top: 8rem;
+    padding: max(2rem, 10vw);
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: dodgerblue;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+i {
+    color: darkturquoise;
+}
+
+input {
+    visibility: hidden;
+}
+
+button {
+    font-size: 1rem;
+    display: block;
+    margin: 2rem auto;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
