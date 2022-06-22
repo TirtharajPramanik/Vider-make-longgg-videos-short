@@ -1,4 +1,4 @@
-#!venv/bin/python3
+#!/Users/tirtharaj/Websites/Vider/vidEdit/venv/bin/python3
 
 import os
 from typer import Typer
@@ -24,7 +24,7 @@ def run(filepath: str, outdir: str, vidsize: int = 30):
     # out_dir = os.path.realpath(outdir)
     os.mkdir(outdir)
     edit_n_save(filepath, outdir, vidsize)
-    call(['sh', f'{this_path}make_archive.sh', outdir])
+    call(['sh', f'{this_path}/make_archive.sh', outdir])
 
 
 if __name__ == '__main__':
